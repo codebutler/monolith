@@ -1,0 +1,7 @@
+*.log
+*.swp
+*substvars
+files
+*/debian/tmp
+monolith/debian/build
+monolith/debian/monolith

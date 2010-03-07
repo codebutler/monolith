@@ -1,0 +1,12 @@
+Source: monolith
+Section: interpreters
+Priority: optional
+Maintainer: Eric Butler <eric@codebutler.com>
+Build-Depends: autoconf, automake, autotools-dev, bison, dc, debhelper, desktop-file-utils, dpatch, dpkg-dev, intltool, libapr1-dev, libart-2.0-dev, libcairo2-dev, libexif-dev, libfontconfig1-dev, libfreetype6-dev, libgif-dev, libglade2-dev, libglib2.0-dev, libgnomecanvas2-dev, libgnomeui-dev, libgnomevfs2-dev, libgtk2.0-dev, libgtkspell-dev, libjpeg62-dev, libmetacity-dev, libpango1.0-dev, libpng12-dev, libsvn-dev, libtiff4-dev, libtool, libwebkit-dev, libx11-dev, libxft-dev, libxml-dom-perl, libxslt1-dev, libxt-dev, lsb-release, pkg-config, po-debconf, quilt, zlib1g-dev, ruby, wget, monolith-buildenv, unzip
+Standards-Version: 3.8.0
+Homepage: http://codebutler.com/
+
+Package: monolith
+Architecture: any
+Depends: debconf, gnome-icon-theme, libapr1, libart-2.0-2, libatk1.0-0, libc6, libcairo2, libexif12, libfbclient2, libfontconfig1, libfreetype6, libgconf2-4, libgdiplus, libgif4, libglade2-0, libglib2.0-0, libglib2.0-dev, libgnome2-0, libgnomecanvas2-0, libgnomeui-0, libgnomevfs2-0, libgtk2.0-0, libgtkspell0, libjpeg62, libmetacity0, libpango1.0-0, libpng12-0, libsqlite0, libsqlite3-0, libsvn1, libtiff4, libwebkit-1.0-2, libx11-6, libxml-libxml-perl, libxrender1, perl-modules, pkg-config, procps, xterm, zlib1g
+Description: A parallel install of the latest version of Mono, MonoDevelop, and supporting libraries.

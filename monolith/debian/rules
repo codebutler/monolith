@@ -1,0 +1,25 @@
+#!/usr/bin/make -f
+
+build:
+	# Build everything
+	ruby debian/build.rb
+
+	# Install monolith script
+	install -D monolith debian/monolith/usr/bin/monolith
+
+binary:
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs
+	dh_installdocs
+	dh_link 
+	dh_compress 
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+clean:
+	rm -rf debian/build
+	rm -rf debian/monolith

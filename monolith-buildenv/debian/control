@@ -1,0 +1,12 @@
+Source: monolith-buildenv
+Section: interpreters
+Priority: optional
+Maintainer: Eric Butler <eric@codebutler.com>
+Standards-Version: 3.8.0
+Homepage: http://codebutler.com/
+
+Package: monolith-buildenv
+Architecture: all
+Depends: bash
+Conflicts: monolith
+Description: Hack to set up build environment for monolith.
