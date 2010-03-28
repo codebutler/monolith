@@ -1,5 +1,17 @@
-monolith (1) karmic; urgency=low
+monolith (3) karmic; urgency=low
 
   * Initial release.
+  * Includes:
+      - mono 2.6.3
+      - libgdiplus 2.6.2
+      - xsp 2.6.3
+      - gtk-sharp 2.12.10
+      - gnome-sharp 2.24.1
+      - gnome-desktop-sharp 2.24.0
+      - ndesk-dbus 0.6.0
+      - ndesk-dbus glib-0.4.1
+      - webkit-sharp 0.3
+      - mono-addins 0.4
+      - monodevelop 2.2.2
 
- -- Eric Butler <eric@codebutler.com>  Sun, 28 Mar 2010 10:31:31 -0700
+ -- Eric Butler <eric@codebutler.com>  Sun, 28 Mar 2010 14:34:27 -0700
