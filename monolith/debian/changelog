@@ -1,5 +1,5 @@
-monolith (2.6.1-0) karmic; urgency=low
+monolith (1) karmic; urgency=low
 
   * Initial release.
 
- -- Eric Butler <eric@codebutler.com>  Fri, 05 Mar 2010 16:40:03 -0800
+ -- Eric Butler <eric@codebutler.com>  Sun, 28 Mar 2010 10:31:31 -0700

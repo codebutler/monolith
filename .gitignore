@@ -3,5 +3,12 @@
 *substvars
 files
 */debian/tmp
+*.build
+*.changes
+*.upload
+*.dsc
+*.tar.gz
+*.deb
 monolith/debian/build
 monolith/debian/monolith
+monolith/sources/
